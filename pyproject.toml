@@ -1,0 +1,26 @@
+[project]
+name = "fastapi-async-auth-docker-redis"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "aiomysql>=0.3.2",
+    "alembic>=1.18.4",
+    "black>=26.1.0",
+    "cryptography>=46.0.5",
+    "dotenv>=0.9.9",
+    "fastapi>=0.134.0",
+    "greenlet>=3.3.2",
+    "passlib[argon2,bcrypt]>=1.7.4",
+    "pydantic[email]>=2.12.5",
+    "pymysql>=1.1.2",
+    "python-dotenv>=1.2.1",
+    "python-jose[cryptography]>=3.5.0",
+    "python-multipart>=0.0.22",
+    "redis>=7.2.1",
+    "ruff>=0.15.4",
+    "sqlalchemy>=2.0.47",
+    "uvicorn>=0.41.0",
+]
+
