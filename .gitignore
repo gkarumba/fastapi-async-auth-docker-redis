@@ -134,7 +134,7 @@ dmypy.json
 Thumbs.db
 
 # Alembic specific
-alembic.ini
+# alembic.ini
 alembic/__pycache__/
 alembic/versions/__pycache__/
 *.pyc
