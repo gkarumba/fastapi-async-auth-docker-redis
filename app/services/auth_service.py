@@ -1,4 +1,3 @@
-import pdb
 
 from app.repositories.user_repo import UserRepository
 from app.core.jwt import create_access_token

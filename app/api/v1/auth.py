@@ -1,10 +1,9 @@
-import pdb
 
 from fastapi import APIRouter, Depends, HTTPException, status
 from fastapi.security import OAuth2PasswordRequestForm
 from sqlalchemy.ext.asyncio import AsyncSession
 from app.core.database import SessionLocal
-from app.schemas.user import RefreshToken, UserCreate, UserLogin, UserRead, Token
+from app.schemas.user import RefreshToken, UserCreate, UserRead, Token
 from app.services.auth_service import AuthService
 from app.repositories.user_repo import UserRepository
 from app.core.jwt import decode_access_token, is_token_revoked
