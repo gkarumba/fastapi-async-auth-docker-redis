@@ -11,4 +11,4 @@ alembic upgrade head
 
 # Start server (direct call, no --reload in prod!)
 echo "Starting FastAPI server..."
-exec uvicorn main:app --host 0.0.0.0 --port 8000 --workers 4   # adjust workers, log-config, etc.
+exec uvicorn app.main:app --host 0.0.0.0 --port 8000 --workers 4   # adjust workers, log-config, etc.
